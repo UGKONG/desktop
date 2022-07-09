@@ -1,4 +1,5 @@
 const mysql = require('mysql');
+const { itemList } = require('./temp.json');
 
 // DB 연결 함수
 const dbConnect = callback => {
@@ -19,6 +20,8 @@ const success = data => ({ result: true, msg: '성공', data });
 const fail = msg => ({ result: false, msg, data: null });
 
 module.exports.getItemAll = (req, res) => {
+  return res.send(success(itemList));
+
   dbConnect(db => {
     db.query(`
       SELECT
@@ -37,6 +40,7 @@ module.exports.getItemAll = (req, res) => {
 }
 module.exports.getItem = (req, res) => {
   const id = req?.params?.id;
+  return res.send(success(itemList?.filter(x => x?.CURRENT_ID == id)));
 
   dbConnect(db => {
     db.query(`

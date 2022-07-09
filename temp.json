@@ -1,0 +1,84 @@
+{
+  "itemList": [
+    {
+      "ID": 1,
+      "CURRENT_ID": 0,
+      "TYPE": 1,
+      "NAME": "프로젝트",
+      "SIZE": null,
+      "EXT": null,
+      "URL": null,
+      "MODIFY_DATE": "2022-07-10 02:21:58"
+    },
+    {
+      "ID": 2,
+      "CURRENT_ID": 0,
+      "TYPE": 2,
+      "NAME": "테스트 모달",
+      "SIZE": null,
+      "EXT": null,
+      "URL": null,
+      "MODIFY_DATE": "2022-07-10 02:12:57"
+    },
+    {
+      "ID": 3,
+      "CURRENT_ID": 0,
+      "TYPE": 3,
+      "NAME": "테스트 링크",
+      "SIZE": null,
+      "EXT": null,
+      "URL": "https://naver.com",
+      "MODIFY_DATE": "2022-07-10 00:19:11"
+    },
+    {
+      "ID": 4,
+      "CURRENT_ID": 1,
+      "TYPE": 3,
+      "NAME": "폴더 내부 링크",
+      "SIZE": null,
+      "EXT": null,
+      "URL": "https://google.com",
+      "MODIFY_DATE": "2022-07-10 00:20:02"
+    },
+    {
+      "ID": 5,
+      "CURRENT_ID": 1,
+      "TYPE": 1,
+      "NAME": "내부 폴더",
+      "SIZE": null,
+      "EXT": null,
+      "URL": null,
+      "MODIFY_DATE": "2022-07-10 00:20:02"
+    },
+    {
+      "ID": 6,
+      "CURRENT_ID": 1,
+      "TYPE": 2,
+      "NAME": "내부 모달",
+      "SIZE": null,
+      "EXT": null,
+      "URL": null,
+      "MODIFY_DATE": "2022-07-10 02:35:02"
+    },
+    {
+      "ID": 8,
+      "CURRENT_ID": 5,
+      "TYPE": 3,
+      "NAME": "네이버",
+      "SIZE": null,
+      "EXT": null,
+      "URL": "https://naver.com",
+      "MODIFY_DATE": "2022-07-10 02:44:50"
+    },
+    {
+      "ID": 9,
+      "CURRENT_ID": 5,
+      "TYPE": 4,
+      "NAME": "노션 설치 파일",
+      "SIZE": null,
+      "EXT": null,
+      "URL": "https://www.notion.so/desktop/windows/download",
+      "MODIFY_DATE": "2022-07-10 02:52:21"
+    }
+  ]
+}
